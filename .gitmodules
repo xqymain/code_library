@@ -1,3 +1,3 @@
-[submodule "src/ACM-Code-Library"]
-	path = src/ACM-Code-Library
+[submodule "ACM-Code-Library"]
+	path = ACM-Code-Library
 	url = https://github.com/4thcalabash/ACM-Code-Library

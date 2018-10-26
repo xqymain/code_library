@@ -17,6 +17,7 @@ clean:
 
 update:
 	cd src/ && rm * -rf
-	cd src/ && git submodule init && git submodule update --remote
+	git submodule init && git submodule update && git submodule update --remote
+	cp ACM-Code-Library src/ -rf
 	cd src/ACM-Code-Library/ && rm -rf .idea/ cmake-build-debug/ .git/ && rm -f .gitignore README.md CMakeLists.txt
 	cd src/ && mv ACM-Code-Library/* ./ && rm -rf ACM-Code-Library
