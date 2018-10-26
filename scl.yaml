@@ -27,6 +27,8 @@
       fname: Convex_Hull.cpp
     - title: Max\_Flow
       fname: Max_Flow.cpp
+    - title: Max\_Flow(Faster)
+      fname: Max_Flow(Faster).cpp
     - title: Min\_Cost\_Max\_Flow
       fname: MCMF.cpp
     - title: LCA
@@ -82,3 +84,8 @@
       fname: FWT.cpp
     - title: BerlekampMassey
       fname: BerlekampMassey.cpp
+- name: Others
+  dir: Others/
+  files:
+    - title: Header
+      fname: Header.cpp
