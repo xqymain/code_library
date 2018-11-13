@@ -4,4 +4,4 @@
 
 代码库链接：[calabash\_boy's Code Library](https://github.com/4thcalabash/ACM-Code-Library)
 
-[最新的PDF版本的下载链接](https://github.com/4thcalabash/code_library/blob/wdy/releases/WDY_2018-10-27.pdf)。
+[最新的PDF版本的下载链接](https://github.com/4thcalabash/code_library/blob/wdy/releases/WDY_2018-11-13.pdf)。
