@@ -27,8 +27,6 @@
       fname: Convex_Hull.cpp
     - title: Max\_Flow
       fname: Max_Flow.cpp
-    - title: Max\_Flow(Faster)
-      fname: Max_Flow(Faster).cpp
     - title: Min\_Cost\_Max\_Flow
       fname: MCMF.cpp
     - title: LCA
@@ -64,7 +62,8 @@
       fname: Tarjan(BCC_Point).cpp
     - title: Tarjan(SCC)
       fname: Tarjan(SCC).cpp
-
+    - title: Dijkstra
+      fname: Dijkstra.cpp
 - name: Graph/Tree
   dir: Graph/Tree/
   files:
