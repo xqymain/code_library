@@ -11,12 +11,14 @@
       fname: Suffix_Array.cpp
 
 - name: String\_Automaton
-  dir: String/AutoMachine/
+  dir: String/Automaton/
   files:
     - title: ACAM
       fname: Aho-Corasick_Automaton.cpp
     - title: SAM
       fname: Suffix_Automaton.cpp
+    - title: Generlized\_SAM
+      fname: Generalized_Suffix_Automaton.cpp
     - title: PAM
       fname: Palindromic_Automaton.cpp
 
@@ -69,8 +71,8 @@
   files:
     - title: Point-Divide\&Conquer
       fname: Point-Divide&Conquer.cpp
-    - title: Tree\_Chain\_Division
-      fname: Tree_Chain_Division.cpp
+    - title: Heavy\_Light\_Decomposition
+      fname: Heavy_Light_Decomposition.cpp
     - title: Virtual\_Tree
       fname: Virtual_Tree.cpp
 
@@ -83,6 +85,14 @@
       fname: FWT.cpp
     - title: BerlekampMassey
       fname: BerlekampMassey.cpp
+    - title: CRT
+      fname: CRT.cpp
+    - title: linear\_sieve
+      fname: linear_sieve.cpp
+    - title: Matrix
+      fname: Matrix.cpp
+    - title: Mobius
+      fname: Mobius.cpp
 - name: Others
   dir: Others/
   files:
