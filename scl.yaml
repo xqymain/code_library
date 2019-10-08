@@ -1,23 +1,23 @@
 - name: String
   dir: String/
   files:
-    - title: Hash-1D(哈希)
+    - title: Hash
       fname: Hash-1D.cpp
     - title: KMP
       fname: KMP.cpp
     - title: Manacher
       fname: Manacher.cpp
-    - title: Suffix\_Array
+    - title: Suffix Array
       fname: Suffix_Array.cpp
 
-- name: String\_Automaton
+- name: String Automaton
   dir: String/Automaton/
   files:
     - title: ACAM
       fname: Aho-Corasick_Automaton.cpp
     - title: SAM
       fname: Suffix_Automaton.cpp
-    - title: Generlized\_SAM
+    - title: Generlized SAM
       fname: Generalized_Suffix_Automaton.cpp
     - title: PAM
       fname: Palindromic_Automaton.cpp
@@ -25,55 +25,59 @@
 - name: Algorithm
   dir: Algorithm/
   files:
-    - title: Convex\_Hull
-      fname: Convex_Hull.cpp
-    - title: Max\_Flow
+    - title: Geometry
+      fname: Geometry.cpp
+    - title: Max Flow
       fname: Max_Flow.cpp
-    - title: Min\_Cost\_Max\_Flow
+    - title: Min Cost Max Flow(Min Cost Flow)
       fname: MCMF.cpp
     - title: LCA
       fname: Multiply_LCA.cpp
-    - title: DSU\_On\_Tree(General)
+    - title: DSU On Tree
       fname: DSU_On_Tree(General).cpp
-    - title: DSU\_On\_Tree(Rough)
-      fname: DSU_On_Tree(Rough).cpp
 
-- name: Data\_Structure
+- name: Data Structure
   dir: Data_Structure/
   files:
-    - title: 01\_Trie
+    - title: 01 Trie
       fname: 01Trie.cpp
-    - title: Cartesian\_Tree
+    - title: Cartesian Tree
       fname: Cartesian_Tree.cpp
-    - title: Chairman\_Tree
+    - title: Chairman Tree
       fname: Chairman_Tree.cpp
-    - title: KD\_Tree
+    - title: KD Tree
       fname: KD_Tree.cpp
-    - title: Segment\_Tree
+    - title: Segment Tree
       fname: Segment_Tree.cpp
     - title: AFL(Cactus)
       fname: AFL(Cactus).cpp
-    - title: Segment\_Tree(Dynamic\_Memory).cpp
+    - title: Segment Tree(Dynamic Memory).cpp
       fname: Segment_Tree(Dynamic_Memory).cpp
+    - title: Rollback DSU
+      fname: Rollback_DSU.cpp
 - name: Graph
   dir: Graph/
   files:
-    - title: Tarjan(BCC\_Edge)
+    - title: Tarjan(BCC of Edge)
       fname: Tarjan(BCC_Edge).cpp
-    - title: Tarjan(BCC\_Point)
+    - title: Tarjan(BCC of Point)
       fname: Tarjan(BCC_Point).cpp
     - title: Tarjan(SCC)
       fname: Tarjan(SCC).cpp
     - title: Dijkstra
       fname: Dijkstra.cpp
+    - title: Dijkstra interval graph
+      fname: Dijkstra_interval_graph.cpp
+    - title: Eulor Tour
+      fname: EulorTour.cpp
 - name: Graph/Tree
   dir: Graph/Tree/
   files:
-    - title: Point-Divide\&Conquer
+    - title: Divide \& Conquer of Point
       fname: Point-Divide&Conquer.cpp
-    - title: Heavy\_Light\_Decomposition
+    - title: Heavy Light Decomposition
       fname: Heavy_Light_Decomposition.cpp
-    - title: Virtual\_Tree
+    - title: Virtual Tree
       fname: Virtual_Tree.cpp
 
 - name: Math
@@ -87,8 +91,10 @@
       fname: BerlekampMassey.cpp
     - title: CRT
       fname: CRT.cpp
-    - title: linear\_sieve
+    - title: Linear Sieve
       fname: linear_sieve.cpp
+    - title: Linear Basis
+      fname: Linear_Basis.cpp
     - title: Matrix
       fname: Matrix.cpp
     - title: Mobius
