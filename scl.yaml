@@ -53,8 +53,8 @@
       fname: AFL(Cactus).cpp
     - title: Segment Tree(Dynamic Memory).cpp
       fname: Segment_Tree(Dynamic_Memory).cpp
-    - title: Rollback DSU
-      fname: Rollback_DSU.cpp
+    - title: Rollback UFS
+      fname: Rollback_UFS.cpp
 - name: Graph
   dir: Graph/
   files:
