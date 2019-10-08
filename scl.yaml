@@ -1,7 +1,7 @@
 - name: String
   dir: String/
   files:
-    - title: Hash-1D
+    - title: Hash-1D(哈希)
       fname: Hash-1D.cpp
     - title: KMP
       fname: KMP.cpp
