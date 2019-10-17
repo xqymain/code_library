@@ -55,6 +55,8 @@
       fname: Segment_Tree(Dynamic_Memory).cpp
     - title: Rollback UFS
       fname: Rollback_UFS.cpp
+    - title: Persistent LiChao SegmentTree
+      fname: Persistent_LiChao_SegmentTree.cpp
 - name: Graph
   dir: Graph/
   files:
@@ -75,6 +77,8 @@
   files:
     - title: Divide \& Conquer of Point
       fname: Point-Divide&Conquer.cpp
+    - title: Divide \& Conquer of Edge
+      fname: Edge-Divide&Conquer.cpp
     - title: Heavy Light Decomposition
       fname: Heavy_Light_Decomposition.cpp
     - title: Virtual Tree
@@ -104,3 +108,5 @@
   files:
     - title: Header
       fname: Header.cpp
+    - title: FORMULA
+      fname: formula.txt
