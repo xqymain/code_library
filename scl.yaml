@@ -9,7 +9,8 @@
       fname: Manacher.cpp
     - title: Suffix Array
       fname: Suffix_Array.cpp
-
+    - title: Trie Graph
+      fname: Trie-Graph.cpp
 - name: String Automaton
   dir: String/Automaton/
   files:
