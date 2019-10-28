@@ -11,6 +11,10 @@
       fname: Suffix_Array.cpp
     - title: Trie Graph
       fname: Trie-Graph.cpp
+    - title: Trie Graph (Segment Tree)
+      fname: Trie-Graph(SegmentTree).cpp
+    - title: Dictionary of Basic Factors
+      fname: Dictionary_of_Basic_Factors.cpp
 - name: String Automaton
   dir: String/Automaton/
   files:
