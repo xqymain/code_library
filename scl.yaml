@@ -24,6 +24,8 @@
       fname: Suffix_Automaton.cpp
     - title: Generlized SAM
       fname: Generalized_Suffix_Automaton.cpp
+    - title: C-SAM(CDAWG)
+      fname: C-SAM(CDAWG).cpp
     - title: PAM
       fname: Palindromic_Automaton.cpp
 
