@@ -5,8 +5,12 @@
       fname: Hash-1D.cpp
     - title: KMP
       fname: KMP.cpp
+    - title: EX KMP
+      fname: EX_KMP.cpp
     - title: Manacher
       fname: Manacher.cpp
+    - title: Palindrome Series
+      fname: Palindrome_Series.cpp
     - title: Suffix Array
       fname: Suffix_Array.cpp
     - title: Trie Graph
@@ -28,6 +32,8 @@
       fname: C-SAM(CDAWG).cpp
     - title: PAM
       fname: Palindromic_Automaton.cpp
+    - title: 区间本质不同子串
+      fname: Count_Substrings_In_Segment.cpp
 
 - name: Algorithm
   dir: Algorithm/
@@ -106,8 +112,6 @@
       fname: linear_sieve.cpp
     - title: Linear Basis
       fname: Linear_Basis.cpp
-    - title: Matrix
-      fname: Matrix.cpp
     - title: Mobius
       fname: Mobius.cpp
 - name: Others
