@@ -2,7 +2,7 @@
   dir: String/
   files:
     - title: Hash
-      fname: Hash-1D.cpp
+      fname: Hash.cpp
     - title: KMP
       fname: KMP.cpp
     - title: EX KMP
