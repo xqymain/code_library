@@ -59,7 +59,7 @@
     \edef\thelstnumber{%
         \unexpanded{%
             \ifnum#1=\value{lstnumber}\relax
-             \tt #2%
+             #2%
             \else}%
         \expandafter\unexpanded\expandafter{\thelstnumber\othelstnumber\fi}%
     }

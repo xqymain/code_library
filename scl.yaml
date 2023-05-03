@@ -48,6 +48,8 @@
       fname: Multiply_LCA.cpp
     - title: DSU On Tree
       fname: DSU_On_Tree(General).cpp
+    - title: Dynamic Programming
+      fname: DP.cpp
 
 - name: Data Structure
   dir: Data_Structure/
@@ -62,6 +64,8 @@
       fname: KD_Tree.cpp
     - title: Segment Tree
       fname: Segment_Tree.cpp
+    - title: Segment Tree(Beats)
+      fname: Another_ST.cpp
     - title: AFL(Cactus)
       fname: AFL(Cactus).cpp
     - title: Segment Tree(Dynamic Memory).cpp
@@ -70,6 +74,8 @@
       fname: Rollback_UFS.cpp
     - title: Persistent LiChao SegmentTree
       fname: Persistent_LiChao_SegmentTree.cpp
+    - title: Binary Indexed Tree
+      fname: Binary_Tree.cpp
 - name: Graph
   dir: Graph/
   files:
@@ -85,6 +91,10 @@
       fname: Dijkstra_interval_graph.cpp
     - title: Eulor Tour
       fname: EulorTour.cpp
+    - title: Floyd
+      fname: Floyd.cpp
+    - title: SPFA
+      fname: SPFA.cpp
 - name: Graph/Tree
   dir: Graph/Tree/
   files:
@@ -121,3 +131,16 @@
       fname: Header.cpp
     - title: FORMULA
       fname: formula.txt
+- name: Ours
+  dir: Ours/
+  files:
+    - title: Fast IO
+      fname: Fast_IO.cpp
+    - title: RB Tree
+      fname: RB_Tree.cpp
+    - title: LCT
+      fname: LCT.cpp
+    - title: MST
+      fname: MST.cpp
+    - title: JUNK
+      fname: JUNK.cpp

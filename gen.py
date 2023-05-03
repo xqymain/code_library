@@ -1,9 +1,10 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 import re, os, hashlib, yaml
 
 line_count = 1
 
-scl = yaml.load(open("scl.yaml").read())
+with open("scl.yaml", "r") as file:
+    scl = yaml.load(file, Loader=yaml.SafeLoader)
 
 LANGS = {"c": "C", "cpp": "C++", "py": "Python", "pl": "Perl",
      "sh": "sh", "java": "Java"}
@@ -23,7 +24,6 @@ def gen_section(sect_yaml):
   sect = []
   sect.append("\\section{%s}" % name)
 
-  subsects = []
   for (idx, f) in enumerate(files):
     title = f['title']
     fname = f['fname']
@@ -37,7 +37,7 @@ def gen_section(sect_yaml):
     sect.append("\\subsection{%s}" % title)
 
     def digest_line(s):
-      return hashlib.md5(re.sub(r'\s|//.*', '', s)).hexdigest()[-4:]
+      return hashlib.md5(re.sub(r'\s|//.*', '', s).encode('utf-8')).hexdigest()[-4:]
 
     for line in code.split("\n"):
       sect.append("\\createlinenumber{%d}{%s}" % (line_count, digest_line(line)))
@@ -48,10 +48,10 @@ def gen_section(sect_yaml):
       sect.append(desc.strip())
       sect.append('\\end{mdframed}\\vspace{-10pt}')
     sect.append("\\begin{lstlisting}[language=%s]" % lang(extension))
-    sect.append(code.decode('utf-8'))
+    sect.append(code)
     sect.append("\\end{lstlisting}")
 
-  return "\n".join(sect).encode('utf-8')
+  return "\n".join(sect)
 
 for section in scl:
-  print gen_section(section)
+  print(gen_section(section))
