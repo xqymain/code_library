@@ -9,6 +9,7 @@ int m,n,N,fa[maxn],dp[maxn][2];
 int len[maxn],dfn[maxn],dfs_clock;
 bool inCircle[maxn];
 int dp2[maxn][2];
+int w[maxn];    // 点权
 inline void addEdge1(int x,int y){
     E1[x].push_back(y);
 }
@@ -16,7 +17,9 @@ inline void addEdgeT(int x,int y){
     ET[x].push_back(y);
 }
 void input(){
-    cin>>n>>m;N =n;
+    cin>>n;N=n;m=n-1;// n点m边
+    for(int i=1;i<=n;i++)
+        cin>>w[i];
     for (int i=0;i<m;i++){
         int u,v;cin>>u>>v;
         addEdge1(u,v);addEdge1(v,u);
@@ -71,7 +74,7 @@ void work(int x){
     dp[x][1] = max(dp[x][1],max(dp2[0][0],dp2[0][1]));
 }
 void dfs(int u){
-    dp[u][0]=0;dp[u][1]=1;
+    dp[u][0]=0;dp[u][1]=w[u];
     if (u>N)dp[u][0]=0;
     for (int i=0;i<ET[u].size();i++){
         int v = ET[u][i];

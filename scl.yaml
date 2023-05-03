@@ -28,7 +28,7 @@
       fname: Suffix_Automaton.cpp
     - title: Generlized SAM
       fname: Generalized_Suffix_Automaton.cpp
-    - title: C-SAM(CDAWG)
+    - title: C-SAM (CDAWG)
       fname: C-SAM(CDAWG).cpp
     - title: PAM
       fname: Palindromic_Automaton.cpp
@@ -42,8 +42,10 @@
       fname: Geometry.cpp
     - title: Max Flow
       fname: Max_Flow.cpp
-    - title: Min Cost Max Flow(Min Cost Flow)
+    - title: Min Cost Max Flow (Min Cost Flow)
       fname: MCMF.cpp
+    - title: MCMF String Special
+      fname: MCMF_Special.cpp      
     - title: LCA
       fname: Multiply_LCA.cpp
     - title: DSU On Tree
@@ -64,11 +66,11 @@
       fname: KD_Tree.cpp
     - title: Segment Tree
       fname: Segment_Tree.cpp
-    - title: Segment Tree(Beats)
+    - title: Segment Tree (Beats)
       fname: Another_ST.cpp
-    - title: AFL(Cactus)
+    - title: AFL (Cactus)
       fname: AFL(Cactus).cpp
-    - title: Segment Tree(Dynamic Memory).cpp
+    - title: Segment Tree (Dynamic Memory)
       fname: Segment_Tree(Dynamic_Memory).cpp
     - title: Rollback UFS
       fname: Rollback_UFS.cpp
@@ -79,11 +81,11 @@
 - name: Graph
   dir: Graph/
   files:
-    - title: Tarjan(BCC of Edge)
+    - title: Tarjan (BCC of Edge)
       fname: Tarjan(BCC_Edge).cpp
-    - title: Tarjan(BCC of Point)
+    - title: Tarjan (BCC of Point)
       fname: Tarjan(BCC_Point).cpp
-    - title: Tarjan(SCC)
+    - title: Tarjan (SCC)
       fname: Tarjan(SCC).cpp
     - title: Dijkstra
       fname: Dijkstra.cpp
@@ -119,7 +121,7 @@
     - title: CRT
       fname: CRT.cpp
     - title: Linear Sieve
-      fname: linear_sieve.cpp
+      fname: Linear_Sieve.cpp
     - title: Linear Basis
       fname: Linear_Basis.cpp
     - title: Mobius

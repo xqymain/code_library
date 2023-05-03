@@ -10,23 +10,6 @@ LL qpower(LL x, LL n, LL m)
     return res;
 }
 ///
-int prime[maxn];  
-bool is_prime[maxn];
-int sieve(int n){
-    int p = 0;
-    for(int i = 0; i <= n; ++i)
-        is_prime[i] = true;
-    is_prime[0] = is_prime[1] = false;
-    for (int i = 2; i <= n; ++i){
-        if(is_prime[i]){
-            prime[p++] = i;
-            for(int j = i + i; j <= n; j += i)
-                is_prime[j] = false;
-        }
-    }
-    return p;
-}
-///
 int gcd(int a, int b){
     return b == 0 ? a : gcd(b, a % b);
 }

@@ -63,3 +63,29 @@ pair<Trie::iterator, Trie::iterator> range = trie.prefix_range(prefix);
 for(auto it = range.first; it != range.second; ++it) {
   cout << *it << endl;
 } */
+int N,M,Q;
+int main() {
+    cin>>N>>M;
+    for(int i=0;i<M;i++)
+    {
+        string str;
+        cin>>str;
+        trie.insert(str);
+    }
+    cin>>Q;
+    while(Q--)
+    {
+        string str;
+        cin>>str;
+        str.erase(str.find_last_not_of('?') + 1);
+        if(!str.empty()){
+                pair<Trie::iterator, Trie::iterator> range = trie.prefix_range(str);
+                if(++range.first==range.second)
+                    printf("YES\n");
+                else
+                    printf("NO\n");
+            }
+        else
+            printf("NO\n");
+    }
+}
